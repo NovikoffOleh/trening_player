@@ -52,7 +52,13 @@ let c = video.currentTime;
 progress.value = (100*c)/d;
 }
 //перемотка
-function videoRewind(){
+function videoRewind() {
 let w = this.offsetWidth;
+let o = event.offsetX;
 console.log(w);
+console.log(o);
+this.value = 100*o/w;
+video.pause();
+video.currentTime = video.duration * (o/w);
+video.play;
 }
