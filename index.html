@@ -14,18 +14,20 @@
 <body>
     <div class="container">
         <h2>Робимо плеєр</h2>
-    <video width="400" height="300" poster="" id="video-player">
+    <video width="500" height="400" poster="" id="video-player">
         <source src="/image/Minions.mp4" type="video/mp4">
     </video>
+    
+    <div>
+    <progress id="progress" max="100" value="0" style="width: 50%"></progress> 
+    </div>
     <div><button id="play">Play</button></div>
     <div><button id="pause">Pause</button></div>
     <div><button id="stop">Stop</button></div>
     <div><button id="speed-up">Швидше</button></div>
     <div><button id="speed-down">Повільніше</button></div>
     <div><button id="speed-normal">Нормальна швидкість</button></div>
-    <div><input type="range" id="volume">Звук</div>
-    
-    <h2>Проба сил</h2>
+    <div><input type="range" id="volume" min=0 max=100>Звук</div>
 
     </div>
     <script src="/js.js"></script>
