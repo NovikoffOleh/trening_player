@@ -3,10 +3,12 @@
 }
 body{
     background-color: rgb(27, 130, 234);
+    background-image: url('./image/fon11.jpg');
+
 }
-h2{
+h1{
     margin: 20px auto;
-    color: rgb(202, 230, 24);
+    color: rgb(212, 32, 167);
 
 }
 .container{
@@ -15,3 +17,20 @@ h2{
     max-width: 1200px;
     line-height: 150%;
 }
+button {
+    cursor: pointer;
+    width: 185px;
+    height: 40px;
+    margin: 10px 10px;
+    background-color: rgb(85, 118, 239);
+    border-radius: 6px;
+    color: rgb(245, 244, 244);
+    padding: 0px 25px;
+    border: none;
+    transition: background-color 300ms linear;
+}
+
+    button:hover {
+      background-color: rgb(136, 19, 35);
+    }
+  
