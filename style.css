@@ -4,6 +4,7 @@
 body{
     background-color: rgb(27, 130, 234,);
     background-image: url('./image/fon11.jpg');
+    background-repeat: no-repeat;
 
 }
 h1{
